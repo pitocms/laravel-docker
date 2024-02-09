@@ -13,7 +13,7 @@ class ExampleTest extends TestCase
      */
     public function test_that_true_is_true()
     {
-        $this->assertTrue(false);
+        $this->assertTrue(true);
         $myfile = fopen("succes.txt", "w") or die("Unable to open file!");
         fclose($myfile);
     }
